@@ -1,6 +1,6 @@
 {
   "name": "cordova-auto-patch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Automatically increment patch version in config.xml",
   "main": "cordova-auto-patch.js",
   "scripts": {
