@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        id        = "com.cordova.auto.patch"
+        version   = "1">
+
+    <name>Test config</name>
+
+    <description>
+      Sample config file for testing patch version auto increment
+    </description>
+
+    <author href="http://shevaroller.me" email="shevaroller@gmail.com">
+      Oleksii Shevchenko
+    </author>
+
+</widget>
