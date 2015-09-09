@@ -1,0 +1,25 @@
+{
+  "name": "cordova-auto-patch",
+  "version": "1.0.0",
+  "description": "Automatically increment patch version in config.xml",
+  "main": "cordova-auto-patch.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:shevaroller/cordova-auto-patch.git"
+  },
+  "keywords": [
+    "cordova",
+    "patch",
+    "version",
+    "increment",
+    "config.xml"
+  ],
+  "author": "Oleksii Shevchenko <shevaroller@gmail.com> (http://shevaroller.me)",
+  "license": "MIT",
+  "devDependencies": {
+    "xml2js": "^0.4.12"
+  }
+}
