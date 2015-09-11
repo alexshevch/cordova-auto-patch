@@ -14,6 +14,16 @@ Point to the directory with config.xml and cordova-auto-patch will do the rest.
     
     patch(./<path_to_config>/);
 
+Use it with your gulp or grunt cordova build tasks:
+
+    gulp.task('build', function() {
+        return gulp.src(<cordova project source path>)
+            .pipe(create())
+            .pipe(plugin(<add plugins>))
+            .pipa(patch(<cordova project source path>))
+            .pipe(cordova build())
+            .pipe(gulp.dest(<cordova project build path>));
+
 ## License
 
 MIT
