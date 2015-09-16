@@ -7,7 +7,8 @@ All it does is increments value of `version` key. For example, `1.0.1` becomes `
 Point to the directory with config.xml and cordova-auto-patch will do the rest.
 
 
-# Update 1.2.0
+# Update 1.2.x [![Build Status](https://secure.travis-ci.org/shevaroller/cordova-auto-patch.png)](http://travis-ci.org/shevaroller/cordova-auto-patch)
+
 
 The latest update does not break your previous code, but adds an option to manually set version number.
 
