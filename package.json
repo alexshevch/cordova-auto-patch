@@ -19,7 +19,7 @@
   ],
   "author": "Oleksii Shevchenko <shevaroller@gmail.com> (http://shevaroller.me)",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "xml2js": "^0.4.12"
   }
 }
